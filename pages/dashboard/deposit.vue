@@ -379,7 +379,7 @@ export default {
         this.paymentMethod = wallet.paymentMethod;
       }
     },
-
+    //
     selectSystem(currency) {
       this.currencies.forEach((el) => {
         el.checked = false;
